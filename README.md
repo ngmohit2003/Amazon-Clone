@@ -26,4 +26,4 @@ git status            for status(on branch main).
                       after modyfing any file there is a two-step process to commit our changes : 1.ADD  2.COMMIT.
 git add "#link"       to add a modified file before commit (can be verified on status).
                       also, if too many files are to be added together then we can just type "git add ." (dot) and all files will get added together automtaically.
-git commit
+git commit            RECORD  of changes
