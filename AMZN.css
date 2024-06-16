@@ -69,6 +69,11 @@ font-family: 'Trebuchet MS', sans-serif;
     display: flex;
     height: 40px;
 }
+.input:hover{
+    border: 2px solid #ecbc1f;
+    border-radius: 5px;
+
+}
 .select{
     width: 40px;
     color: rgb(95, 86, 86);
@@ -612,7 +617,7 @@ p{
     height: 18px;
     width: 100%;
     border: 0;
-    background-color: #eaf8fd;
+    background-color: #e5f7fd;
     position: relative;
     top: -100px;
 }
@@ -726,6 +731,36 @@ p{
     background-size: cover;
     
 }
+.g6{
+    height: 180px;
+    width: 290px;
+    background-image: url("assets/g6.jpg");
+    background-size: contain;
+}
+.g2{
+    height: 65px;
+    width: 67px;
+    background-image: url("assets/g2.jpg");
+    background-size: cover;
+}
+.g3{
+    height: 65px;
+    width: 67px;
+    background-image: url("assets/g8.jpg");
+    background-size: cover;
+}
+.g4{
+    height: 65px;
+    width: 67px;
+    background-image: url("assets/g4.jpg");
+    background-size: cover;
+}
+.g5{
+    height: 65px;
+    width: 67px;
+    background-image: url("assets/g5.jpg");
+    background-size: cover;
+}
 .sub-border{
     
     border: 1.5px solid gray;
@@ -743,7 +778,7 @@ p{
     height: 20px;
     width: 100%;
     border: 0;
-    background-color: #d9f3fb;
+    background-color: #e5f7fd;
     position: relative;
     top: -100px;
 }
@@ -751,7 +786,7 @@ p{
     height: 20px;
     width: 100%;
     border: 0;
-    background-color: #d9f3fb;
+    background-color: #e5f7fd;
 }
 
 
@@ -761,16 +796,40 @@ p{
     height: 20px;
     width: 100%;
     border: 0;
-    background-color: #d9f3fb;
+    background-color: #e5f7fd;
 }
 .sign-in{
     height: 100px;
     width: 100%;
-    background-color:#0e99b1 ;
+    background-color: #e5f7fd;
 }
-
-
-
+.log-in{
+    height: 60px;
+    width: 265px;
+    padding-top: 19px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 700px;
+}
+.log-in-btn{
+    height: 28px;
+    width: 230px;
+    font-weight: bold;
+    border: 1px solid #b89157;
+    border-radius: 4px;
+    background-color: #ecbc1f;
+}
+.up1{
+    font-size: 14px;
+}
+.down1{
+    font-size: 12px;
+    color: #0e99b1;
+}
+.down1:hover{
+    color: #e65902;
+}
 
 .back-2-top{
     height: 49px;
@@ -884,7 +943,7 @@ p{
     width: 100%;
     background-color: #131A22;
     position: relative;
-    top: -24.5px;
+    top: -25.5px;
 }
 ul{
     list-style-type: none;
